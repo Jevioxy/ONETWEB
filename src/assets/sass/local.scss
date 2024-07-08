@@ -356,7 +356,7 @@
                 transform: translateY(0);
             }
             50% {
-                transform: translateY(-0.6em);
+                transform: translateY(-1.6em);
             }
             100% {
                 transform: translateY(0);
@@ -429,7 +429,7 @@
                 top: calc(0 / 16 * 1em);
                 left: calc(0 / 16 * 1em);
                 animation-name: floatAnimation;
-                animation-duration: 6s;
+                animation-duration: 10s;
                 animation-timing-function: ease-in-out;
                 animation-iteration-count: infinite;
                 animation-fill-mode: forwards;

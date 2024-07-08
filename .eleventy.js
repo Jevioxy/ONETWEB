@@ -1,10 +1,8 @@
 // Plugin Imports
 const pluginDirectoryOutput = require("@11ty/eleventy-plugin-directory-output");
 const pluginEleventyNavigation = require("@11ty/eleventy-navigation");
-<<<<<<< HEAD
 // Filter Imports
 const filterFormatDate = require("./src/config/filters/formatDate");
-=======
 const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
 const pluginMinifier = require("@sherby/eleventy-plugin-files-minifier");
 const pluginCritical = require("eleventy-critical-css");
@@ -18,7 +16,6 @@ const configCss = require("./src/config/eleventy/css");
 const configJs = require("./src/config/eleventy/javascript");
 
 const isProduction = process.env.ELEVENTY_ENV === "PROD";
->>>>>>> origin/optimization
 
 module.exports = function (eleventyConfig) {
     /**
